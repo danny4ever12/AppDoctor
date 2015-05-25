@@ -1,0 +1,67 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="@drawable/symbol_doc"
+    tools:context="com.example.appdoctor.AppDoctor"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/b_sym"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="22dp"
+        android:text="@string/symptoms" />
+    
+     <Button
+        android:id="@+id/b_insp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="@string/inspirational_quotes" />
+
+    <Button
+        android:id="@+id/b_dis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="22dp"
+        android:text="@string/diseases" />
+
+    <Button
+        android:id="@+id/b_med"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="18dp"
+        android:text="@string/medicines" />
+
+    <Button
+        android:id="@+id/b_health"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="28dp"
+        android:text="@string/health_news" />
+
+    <Button
+        android:id="@+id/b_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        android:text="@string/about_us" />
+    
+    </LinearLayout>
+</ScrollView>
