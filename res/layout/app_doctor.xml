@@ -1,67 +1,84 @@
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/scrollView1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-     android:background="@drawable/symbol_doc"
-    tools:context="com.example.appdoctor.AppDoctor"
-    tools:ignore="MergeRootFrame" >
-
-    <LinearLayout
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-       
+        android:layout_height="match_parent"
+        android:background="@drawable/md1"
         android:orientation="vertical" >
+        
+   <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:background="@drawable/md1"
+        android:layout_height="wrap_content" >
 
-    <Button
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <ImageButton
         android:id="@+id/b_sym"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
         android:layout_marginTop="22dp"
-        android:text="@string/symptoms" />
+         android:layout_gravity="center"
+        android:background="@drawable/mainback"
+        android:contentDescription="@string/symptoms"
+        android:src="@drawable/hmbt1" />
     
-     <Button
+     <ImageButton
         android:id="@+id/b_insp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
+        android:layout_height="wrap_content" 
         android:layout_marginTop="20dp"
-        android:text="@string/inspirational_quotes" />
+         android:layout_gravity="center"
+        android:background="@drawable/mainback"
+        android:contentDescription="@string/inspirational_quotes"
+        android:src="@drawable/hmbt2" />
 
-    <Button
+    <ImageButton
         android:id="@+id/b_dis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginTop="22dp"
-        android:text="@string/diseases" />
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainback"
+        android:layout_gravity="center"
+        android:contentDescription="@string/diseases"
+        android:src="@drawable/hmbt3" />
 
-    <Button
+    <ImageButton
         android:id="@+id/b_med"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginTop="18dp"
-        android:text="@string/medicines" />
+        android:layout_marginTop="20dp"
+         android:layout_gravity="center"
+        android:background="@drawable/mainback"
+        android:contentDescription="@string/medicines"
+        android:src="@drawable/hmbt4" />
 
-    <Button
+    <ImageButton
         android:id="@+id/b_health"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginTop="28dp"
-        android:text="@string/health_news" />
+        android:layout_marginTop="20dp"
+         android:layout_gravity="center"
+        android:background="@drawable/mainback"
+        android:contentDescription="@string/health_news"
+        android:src="@drawable/hmbt5" />
 
-    <Button
+    <ImageButton
         android:id="@+id/b_about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="left"
         android:layout_marginTop="20dp"
-        android:text="@string/about_us" />
-    
+        android:layout_gravity="center"
+        android:background="@drawable/mainback"
+        android:contentDescription="@string/about_us"
+        android:src="@drawable/hmbt6" />
     </LinearLayout>
-</ScrollView>
+  </ScrollView>
+    
+ </LinearLayout>
+

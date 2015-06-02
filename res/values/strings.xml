@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">App Doctor</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">oops</string>
     <string name="action_settings">Settings</string>
     <string name="symptoms">symptoms</string>
     <string name="diseases">diseases</string>
@@ -15,6 +15,7 @@
     <string name="title_activity_medicines">Medicines</string>
     <string name="title_activity_health_news">Health News</string>
     <string name="title_activity_about_me">About Me</string>
+    <string name="az_appkey">0f8102b5c2d1600d6da603018352ae60</string>
     <string name="Headache">Headache</string>
     <string name="details_alarm_tone">Notification Tone</string>
     <string name="details_alarm_tone_default">Select a notification tone</string>
@@ -106,5 +107,7 @@
     <string name="googleplus">googleplus</string>
     <string name="linkedin">linkedin</string>
     <string name="twitter">twitter</string>
+    <string name="save">save</string>
+    <string name="always">always</string>
 
 </resources>

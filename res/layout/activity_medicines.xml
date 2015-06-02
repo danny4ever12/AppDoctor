@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/medspic"
-    tools:context="com.example.appdoctor.Medicines"
+    tools:context="com.medworld.appdoctor.Medicines"
     tools:ignore="MergeRootFrame" >
 
     <ListView

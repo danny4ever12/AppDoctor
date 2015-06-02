@@ -4,6 +4,6 @@
         android:id="@+id/action_save_alarm_details"
         android:orderInCategory="100"
         android:icon="@drawable/action_save"
-        android:showAsAction="always"/>
+        android:showAsAction="always" android:title="@+id/save"/>
 
 </menu>

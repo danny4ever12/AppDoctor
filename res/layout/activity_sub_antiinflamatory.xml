@@ -3,14 +3,15 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.appdoctor.SubAntiinflamatory"
-    tools:ignore="MergeRootFrame" >
+    tools:context="com.medworld.appdoctor.SubAntiinflamatory"
+    tools:ignore="MergeRootFrame" 
+     android:background="@drawable/pillsplash">
 
     <ListView
         android:id="@+id/antiinflamatoryList1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/pillsplash" >
+        >
 
     </ListView>
 

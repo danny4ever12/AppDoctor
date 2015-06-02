@@ -13,7 +13,7 @@
     android:layout_height="wrap_content"
    
     android:orientation="vertical"
-    tools:context="com.example.appdoctor.DiseaseExplanation"
+    tools:context="com.medworld.appdoctor.DiseaseExplanation"
     tools:ignore="MergeRootFrame" >
 
     <TextView

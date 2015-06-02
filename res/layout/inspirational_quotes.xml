@@ -3,11 +3,11 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/diseaseback"
-    android:layoutMode="clipBounds"
+    android:background="@drawable/md1"
+   
     android:orientation="horizontal"
-    android:textAlignment="viewStart"
-    tools:context="com.example.appdoctor.InspirationalQuotes"
+   
+    tools:context="com.medworld.appdoctor.InspirationalQuotes"
     tools:ignore="MergeRootFrame" >
 
     <Space

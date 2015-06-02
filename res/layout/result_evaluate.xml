@@ -3,8 +3,8 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/notifyback"
-    tools:context="com.example.appdoctor.ResultEvaluate"
+    android:background="@drawable/md1"
+    tools:context="com.medworld.appdoctor.ResultEvaluate"
     tools:ignore="MergeRootFrame" >
 
     <TextView
